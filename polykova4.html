@@ -1,0 +1,29 @@
+<html>
+<form action = "URL">
+<input type = "text" name = "имя поля" value="Иванов Иван Иванович" align = "left" size = "20" maxlength = "30">
+</form>
+<textarea name="имя" cols =30 rows = 6 wrap> выберите день для деловой встречи 
+</textarea>
+<select name = "рабочая неделя" size = "4" multiple>
+<option value="1" selected > понедельник </option>
+<option value ="2" selected > вторник </option>
+<option value ="3" selected > среда </option>
+<option value ="4" selected > четверг </option>
+<option value ="5" selected > пятница </option>
+</select>
+<p class="center">Покажи сегодняшнюю дату(нажмите на карандаш):</p>
+<input type="image" name="Показать число" src="pencil.gif" style="width:100" onclick="alert(Date());">
+<br> Укажите ваши навыки:
+<input type = "radio" name = "skill" value = "1" checked> HTML
+<input type = "radio" name = "skill" value = "2" checked> JavaScript
+<input type = "radio" name = "skill" value = "3" checked> PHP
+<input type = "radio" name = "skill" value = "4" checked> ASP </br>
+Укажите ваши дополнительные навыки:
+<input type="checkbox" name="add skill" value ="1" checked>Perl
+<input type="checkbox" name="add skill" value ="2" checked>XML
+<input type="checkbox" name="add skill" value ="3" checked>FLASH
+<br> Введите пароль: </br>
+<input type="password" value="" size = "6" maxlength="8">
+<input type="hidden" value="значение по умолчанию">
+<br> <input type="file" name="имя элемента" enctype="multipart/form-data"; size="50" accept="text/html,video/x-msvideo,image/x-portablritmap"> </br>
+</html>
